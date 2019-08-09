@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     
     
     // 占いボタンが押されたときの動作
-    @IBAction func button(_ sender: UIButton){
+    @IBAction func button(_ sender: UIButton) {
         // 呼び出した結果をtextViewに表示する
         textView.text = fortune1() + fortune2() + fortune3()
     }
