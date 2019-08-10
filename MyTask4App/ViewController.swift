@@ -65,11 +65,13 @@ class ViewController: UIViewController {
         }
     }
     
+    // 血液型から占い結果を出す関数
     func fortune2 () -> String {
         let bloodType = bloodButton.selectedSegmentIndex
         return fortune2View[bloodType]
     }
     
+    // sliderから占い結果を出す関数
     func fortune3 () -> String {
         let sliderNum = Int(sliderBar.value)
         if sliderNum % 3 == 0 {
