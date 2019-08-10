@@ -31,10 +31,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // textViewをいじれせないようにする
-        textView.isUserInteractionEnabled = false
-        // numLabelをいじれせないようにする
-        numLabel.isUserInteractionEnabled = false
     }
     
     // slierが動かされたとき下のLabelにその数字を表示する
